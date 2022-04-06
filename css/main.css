@@ -1,0 +1,177 @@
+body,html{
+    height:100%;
+    margin:0px;
+}
+body{
+    background-color:white;
+}
+nav li{
+    display:inline;
+    margin:50px;
+}
+nav ul{
+    background-color:black;
+    margin:0px;
+    list-style-type: none;
+    width: 100%;
+    padding:20px;
+    font-size: 30px;
+    text-align:center;
+}
+nav{
+    display:inline;
+    color:white;
+}
+.griot-theater{
+    text-align:left;
+}
+.hero-image{
+    background-image: url("../images/theater.png");
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero-text{
+    color:white;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+.april-border{
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right:250px;
+    padding-left:100px;
+    background-color:lightgrey;
+}
+main{
+    text-align: center;
+    display: grid;
+    grid-gap:50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "raisin1 message1 readmore1"
+    "raisin2 message2 readmore2"
+    "raisin3 message3 readmore3"
+    "raisin4 message4 readmore4"
+}
+#raisin1{
+    grid-area: raisin1;
+}
+#raisin2{
+    grid-area: raisin2;
+}
+#raisin3{
+    grid-area: raisin3;
+}
+#raisin4{
+    grid-area: raisin4;
+}
+#message1{
+    grid-area: message1;
+}
+#message2{
+    grid-area: message2;
+}
+#message3{
+    grid-area: message3;
+}
+#message4{
+    grid-area: message4;
+}
+#readmore1{
+    grid-area: readmore1;
+    padding-top: 50px;
+}
+#readmore2{
+    grid-area: readmore2;
+    padding-top: 50px;
+}
+#readmore3{
+    grid-area: readmore3;
+    padding-top: 50px;
+}
+#readmore4{
+    grid-area: readmore4;
+    padding-top: 50px;
+}
+sidebar{
+    background-color:black;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-gap:20px;
+    padding-top:100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "info shows social"
+    "address piano facebook"
+    "email sun twitter"
+    "number fame youtube"
+    "empty purp instagram"
+}
+footer{
+    background-color:black;
+}
+#chicago{
+   float:left;
+   background-color:black;
+    margin-left: 150px;
+    margin-top:150px;
+}0
+#info{
+    grid-area: info;
+}
+#shows{
+    grid-area: shows;
+}
+#social{
+    grid-area: social;
+}
+#address{
+    grid-area: address;
+}
+#piano{
+    grid-area: piano;
+}
+#facebook{
+    grid-area: facebook;
+}
+#email{
+    grid-area: email;
+}
+#sun{
+    grid-area: sun;
+}
+#twitter{
+    grid-area: twitter;
+}
+#number{
+    grid-area: number;
+}
+#fame{
+    grid-area: fame;
+}
+#youtube{
+    grid-area: youtube;
+}
+#empty{
+    grid-area: empty;
+}
+#purp{
+    grid-area: purp;
+}
+#instagram{
+    grid-area: instagram;
+}
